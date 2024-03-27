@@ -7,11 +7,11 @@ Created on Tue Feb 20 15:11:01 2024
 
 # """JUFT SON KIRITING"""
 # =============================================================================
-# n=int(input("Son kiriting>>> "))
-# if n%2==0:
-#     print("Raxmat!")
-# else:
-#     print("Bu son juft emas")
+n=int(input("Son kiriting>>> "))
+if n%2==0:
+    print("Raxmat!")
+else:
+    print("Bu son juft emas")
 
 # """Yosh haqida"""
 # yosh=int(input("Yoshingizni kiriting:>>>"))
