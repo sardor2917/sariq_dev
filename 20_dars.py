@@ -66,13 +66,13 @@ Created on Fri Mar 29 17:50:57 2024
 
 # print(tub_son(1, 11))
 
-def finobacci(son):
-    s=[1]
-    i=1
-    while i<=son:
-        s.append(i)
-        i=s[-1]+s[-2]
-    return s
-print(finobacci(56))
+# def finobacci(son):
+#     s=[1]
+#     i=1
+#     while i<=son:
+#         s.append(i)
+#         i=s[-1]+s[-2]
+#     return s
+# print(finobacci(56))
         
         
