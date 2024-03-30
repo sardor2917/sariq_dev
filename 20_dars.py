@@ -43,15 +43,36 @@ Created on Fri Mar 29 17:50:57 2024
 #     return max
 # print(taqqosla(25,45,198,25,200))                   
                     
-def aylana(r, pi=3.14):
-    info={
-        'radius':r,
-        'diametr':2*r,
-        'perimetr':2*pi*r,
-        'yuza':pi*r**2
-        }   
-    return info
-aylana(2)     
-                
-            
+# def aylana(r, pi=3.14):
+#     info={
+#         'radius':r,
+#         'diametr':2*r,
+#         'perimetr':2*pi*r,
+#         'yuza':pi*r**2
+#         }   
+#     return info
+# print(aylana(2))         
+
+# def tub_son(min, max):
+#     s=list(range(min, max+1))
+#     if min==1:
+#         s.remove(min)
+#     for i in range(min,max+1):
+#         for j in range(1,int(i*(0.5))+1):
+#             if i%j==0 and j!=1:
+#                 s.remove(i)
+#                 break
+#     return s
+
+# print(tub_son(1, 11))
+
+def finobacci(son):
+    s=[1]
+    i=1
+    while i<=son:
+        s.append(i)
+        i=s[-1]+s[-2]
+    return s
+print(finobacci(56))
+        
         
